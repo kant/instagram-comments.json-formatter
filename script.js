@@ -1,3 +1,5 @@
+//get(document.getElementById("fileId").value) fuck how do i get the contents of a file in js?????
+
 function format() {
   document.getElementsByTagName("pre")[0].innerText=document.getElementsByTagName("pre")[0].innerText.replace('{"media_comments": [', '{"media_comments": [\n '); //first line
   document.getElementsByTagName("pre")[0].innerText=document.getElementsByTagName("pre")[0].innerText.replace(']}', '\n]}'); //last line
